@@ -13,6 +13,7 @@ body {
   display: block;
   height: 10px;
   background-color: #2ecc71;
+  min-width: 1176px;
 }
 .container {
   min-height: 100%;
@@ -25,9 +26,10 @@ body {
   justify-content: space-around;
 }
 .first-container {
-  background: url(img.png) center no-repeat;
+  background: url(../img/img.png) center no-repeat;
   background-size: cover;
   height: auto;
+  min-width: 1176px;
 }
 .logo-block {
   padding-top: 167px;
@@ -64,8 +66,8 @@ body {
 .hand-block {
   margin-top: 95px;
   height: 500px;
-  width: 450px;
-  background: url(hand.png) no-repeat;
+  min-width: 450px;
+  background: url(../img/hand.png) no-repeat;
   position: relative;
 }
 .hand-block:after {
@@ -73,7 +75,7 @@ body {
   display: block;
   height: 49%;
   width: 36%;
-  background: url(img.png) center no-repeat;
+  background: url(../img/img.png) center no-repeat;
   background-size: cover;
   position: absolute;
   top: 67px;
@@ -115,43 +117,44 @@ body {
   margin-right: 15px;
 }
 .Apple {
-  background-image: url(icon_apple.png);
+  background-image: url(../img/icon_apple.png);
 }
 .Android {
-  background-image: url(icon_android.png);
+  background-image: url(../img/icon_android.png);
 }  
 .Windows {
-  background-image: url(icon_windows.png);
+  background-image: url(../img/icon_windows.png);
 }
 .Apple:hover {
-  background-image: url(icon_apple_hover.png);
+  background-image: url(../img/icon_apple_hover.png);
 }
 .Android:hover {
-  background-image: url(icon_android_hover.png);
+  background-image: url(../img/icon_android_hover.png);
 }	
 .Windows:hover {
-  background-image: url(icon_windows_hover.png);
+  background-image: url(../img/icon_windows_hover.png);
 }
 .Twitter {
-	background-image: url(icon_twitter.png);
+	background-image: url(../img/icon_twitter.png);
 }
 .Facebook {
-	background-image: url(icon_facebook.png);
+	background-image: url(../img/icon_facebook.png);
 }
 .Pinterest {
-	background-image: url(icon_pinterest.png);
+	background-image: url(../img/icon_pinterest.png);
 }
 .Google {
-	background-image: url(icon_google.png);
+	background-image: url(../img/icon_google.png);
 }
 .LinkedIn {
-	background-image: url(icon_linkedin.png);
+	background-image: url(../img/icon_linkedin.png);
 }
 .YouTube {
-	background-image: url(icon_youtube.png);
+	background-image: url(../img/icon_youtube.png);
 }
 .second-container { 
-  min-height: 100%;		
+  min-height: 100%;	
+  min-width: 1176px;	
 }
 .feature {
   display: flex;
@@ -195,6 +198,7 @@ body {
 .third-container {
   height: 427px;
   background-color: #e3e3e3;
+  min-width: 1176px;
 }
 .updatesBlockHeader {
 	margin-top: 60px;
@@ -253,6 +257,9 @@ button {
 	font-size: 22px;
 	font-weight: 700;
 	color: white;
+}
+.fourth-container {
+	min-width: 1176px;
 }
 .fourth-container-wrapper {
 	width: 1176px;
@@ -349,10 +356,11 @@ a.slider:hover::before {
 }
 footer {
 	height: 130px;
+	min-width: 1176px;
 	background-color: #e3e3e3;
 }
 .footer-wrapper {
-	width: 544px;
+	width: 1176px;
 	height: 130px;
   margin: 0 auto;
   display: flex;
